@@ -9,6 +9,14 @@
 
 このリポジトリでconflictブランチからmasterブランチへマージするためのコンフリクト解消手順を練習できます。
 
+## 準備
+
+```
+$ git clone https://github.com/takaki-albert/git-conflict-sample
+$ git fetch
+$ git branch conflict remotes/origin/conflict
+```
+
 ## コンフリクトの解消方法
 
 下記のどちらかの方法でコンフリクトの改修を行うことができます。  
